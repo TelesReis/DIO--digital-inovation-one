@@ -1,0 +1,15 @@
+
+
+ - para inicializar um repositório local: git init
+ - para verificar caso tenha alguma alteração no repositório local: git status
+ - para adicionar arquivos e ou pastas criadas e editadas no repositório local: git add .
+ - para comentar as edições de arquivos: git commit -m "cometário"
+ - para acessar o servidor do repositório no GitHub, necessário realizar login:
+	* git config --global user.email "seu email"
+	* git config --global user.name "seu nickname"
+ - para reescrever as credênciais local do GitHub definidas:
+	* git config --global --unset user.email
+	* git config --global --unset user.name
+ - para vincular o repositório local com o repositório git no servidor: git remote add origin "link do repositório"
+ - para enviar os arquivos para o git no servidor: git push -u origin main OU git push -u origin "nome da branch"
+ - para puxar os arquivos de um repositório git no servidor para local: git pull origin main OU git pull origin "nome da branch"
